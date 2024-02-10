@@ -1,0 +1,36 @@
+/* Add styles to your PurchaseOrderConfirmation.css file or in your component's styling */
+.purchase-order-confirmation {
+    max-width: 1040px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.company-info {
+    /* display: flex; */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.company-logo {
+    width: 150px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.company-address p {
+    margin: 0;
+}
+
+.order-details p {
+    padding-top: 6px;
+}
+.order-details  {
+    padding-top: 20px;
+}
+
+.thank-you-message {
+    font-weight: bold;
+    margin-top: 20px;
+}
